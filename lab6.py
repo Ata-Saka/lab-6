@@ -10,7 +10,7 @@ def encode(key):
            raise ValueError("Password must contain 8 digits.")
    return encoded_password
 
-def decode(encoded_key):
+def decode(encoded_key): #Added this function in GitBash
    decoded_password = ""
    for char in encoded_key:
        if char.isdigit():
