@@ -1,3 +1,5 @@
+#Ata Saka, Elijah Reese Group Number 94
+
 def encode(key):
    encoded_password = ""
    for char in key:
